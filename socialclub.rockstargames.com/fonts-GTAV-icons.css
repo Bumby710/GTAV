@@ -1,0 +1,696 @@
+@font-face {
+  font-family: "gtav-icon-font";
+  src: url("../../../../fonts/GTAV/icons/gtav-icon-font5.woff2") format("woff2"),
+    url("../../../../fonts/GTAV/icons/gtav-icon-font5.woff") format("woff"),
+    url("../../../../fonts/GTAV/icons/gtav-icon-font5.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+.gtavicon-ability_flying:before,
+.gtavicon-accuracy:before,
+.gtavicon-airrace:before,
+.gtavicon-airracep2p:before,
+.gtavicon-aliens:before,
+.gtavicon-arrows:before,
+.gtavicon-audioicon:before,
+.gtavicon-basejump:before,
+.gtavicon-bike:before,
+.gtavicon-bikerace:before,
+.gtavicon-bikeracep2p:before,
+.gtavicon-block:before,
+.gtavicon-boat:before,
+.gtavicon-body_armor:before,
+.gtavicon-box:before,
+.gtavicon-brokenimg:before,
+.gtavicon-bullets_fired:before,
+.gtavicon-busted:before,
+.gtavicon-capture-base:before,
+.gtavicon-capture:before,
+.gtavicon-car-steal-4:before,
+.gtavicon-cars_stolen:before,
+.gtavicon-car_chosen:before,
+.gtavicon-car_crashes:before,
+.gtavicon-character_switches:before,
+.gtavicon-circle:before,
+.gtavicon-close-circle:before,
+.gtavicon-contactmission:before,
+.gtavicon-cops_killed:before,
+.gtavicon-cross:before,
+.gtavicon-deathmatch:before,
+.gtavicon-dock:before,
+.gtavicon-dogs_humping:before,
+.gtavicon-driving:before,
+.gtavicon-empty:before,
+.gtavicon-exile1:before,
+.gtavicon-fire_department:before,
+.gtavicon-flying:before,
+.gtavicon-franklin:before,
+.gtavicon-freemission:before,
+.gtavicon-gangattack:before,
+.gtavicon-gasoline_used:before,
+.gtavicon-golf:before,
+.gtavicon-grenade-launcher-kills:before,
+.gtavicon-grenadekills:before,
+.gtavicon-headshots:before,
+.gtavicon-health_damage_taken:before,
+.gtavicon-heist:before,
+.gtavicon-heists:before,
+.gtavicon-helicopter:before,
+.gtavicon-hook:before,
+.gtavicon-hunting:before,
+.gtavicon-icon_ammo:before,
+.gtavicon-icon_arrows:before,
+.gtavicon-icon_back:before,
+.gtavicon-icon_banner:before,
+.gtavicon-icon_calender:before,
+.gtavicon-icon_camera:before,
+.gtavicon-icon_chat:before,
+.gtavicon-icon_controller:before,
+.gtavicon-icon_crosshairs:before,
+.gtavicon-icon_dollar:before,
+.gtavicon-icon_driveby:before,
+.gtavicon-icon_globe:before,
+.gtavicon-icon_group:before,
+.gtavicon-icon_gun:before,
+.gtavicon-icon_hand:before,
+.gtavicon-icon_heart:before,
+.gtavicon-icon_inbox:before,
+.gtavicon-icon_keyhole:before,
+.gtavicon-icon_left_arrow:before,
+.gtavicon-icon_lock:before,
+.gtavicon-icon_magnifying_glass:before,
+.gtavicon-icon_marker:before,
+.gtavicon-icon_minus:before,
+.gtavicon-icon_minus_circle:before,
+.gtavicon-icon_pause:before,
+.gtavicon-icon_plus:before,
+.gtavicon-icon_plus_circle:before,
+.gtavicon-icon_plus_tick:before,
+.gtavicon-icon_question_circle:before,
+.gtavicon-icon_race_boats:before,
+.gtavicon-icon_race_car:before,
+.gtavicon-icon_race_plane:before,
+.gtavicon-icon_right_arrow:before,
+.gtavicon-icon_share:before,
+.gtavicon-icon_single-user:before,
+.gtavicon-icon_skull:before,
+.gtavicon-icon_skull_crossbones:before,
+.gtavicon-icon_skull_target:before,
+.gtavicon-icon_star:before,
+.gtavicon-icon_tag:before,
+.gtavicon-icon_target:before,
+.gtavicon-icon_thumbs_down:before,
+.gtavicon-icon_thumbs_up:before,
+.gtavicon-icon_timer:before,
+.gtavicon-icon_tri_stripes:before,
+.gtavicon-icon_trophy:before,
+.gtavicon-ifruit:before,
+.gtavicon-info:before,
+.gtavicon-innocents_killed:before,
+.gtavicon-kills_cop:before,
+.gtavicon-kills_innocents:before,
+.gtavicon-kills_players:before,
+.gtavicon-landrace:before,
+.gtavicon-landracep2p:before,
+.gtavicon-lastteamstanding:before,
+.gtavicon-letter_scrap:before,
+.gtavicon-letter_scraps:before,
+.gtavicon-lung:before,
+.gtavicon-maxspeed:before,
+.gtavicon-mechanic:before,
+.gtavicon-melee:before,
+.gtavicon-michael-2:before,
+.gtavicon-michael-4:before,
+.gtavicon-michael:before,
+.gtavicon-mission:before,
+.gtavicon-mouseclicks:before,
+.gtavicon-naked:before,
+.gtavicon-number_crashes_cars:before,
+.gtavicon-number_stolen_cars:before,
+.gtavicon-parachuting:before,
+.gtavicon-parachutingp2p:before,
+.gtavicon-photos:before,
+.gtavicon-popupsclosed:before,
+.gtavicon-race:before,
+.gtavicon-race_generic:before,
+.gtavicon-randommission:before,
+.gtavicon-random_event:before,
+.gtavicon-random_person:before,
+.gtavicon-refresh:before,
+.gtavicon-report:before,
+.gtavicon-rockstar_logo:before,
+.gtavicon-rockstar_logo_background:before,
+.gtavicon-rstar:before,
+.gtavicon-rstarcan:before,
+.gtavicon-rstar_background:before,
+.gtavicon-safehouse:before,
+.gtavicon-settings:before,
+.gtavicon-shooting:before,
+.gtavicon-shortcut:before,
+.gtavicon-special_cam:before,
+.gtavicon-stamina:before,
+.gtavicon-stayed_on_road:before,
+.gtavicon-stealth-kills:before,
+.gtavicon-stealth:before,
+.gtavicon-stelth:before,
+.gtavicon-stickybombs:before,
+.gtavicon-strength:before,
+.gtavicon-submarine:before,
+.gtavicon-survival:before,
+.gtavicon-teamdeathmatch:before,
+.gtavicon-tennis:before,
+.gtavicon-tick:before,
+.gtavicon-tick_box:before,
+.gtavicon-times_busted:before,
+.gtavicon-times_wanted:before,
+.gtavicon-timetaken:before,
+.gtavicon-trevor:before,
+.gtavicon-truck:before,
+.gtavicon-ufo_parts:before,
+.gtavicon-vehicledeathmatch:before,
+.gtavicon-verif:before,
+.gtavicon-verifcan:before,
+.gtavicon-versusmission:before,
+.gtavicon-waterrace:before,
+.gtavicon-waterracep2p:before,
+.gtavicon-winner:before,
+.gtavicon-stuntrace:before,
+.gtavicon-stuntracep2p:before {
+  display: inline-block;
+  font-weight: 400;
+  font-style: normal;
+  font-variant: normal;
+  font-family: "gtav-icon-font";
+  line-height: 1;
+  text-decoration: inherit;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+}
+.gtavicon-ability_flying:before {
+  content: "\f100";
+}
+.gtavicon-accuracy:before {
+  content: "\f101";
+}
+.gtavicon-airrace:before {
+  content: "\f102";
+}
+.gtavicon-airracep2p:before {
+  content: "\f103";
+}
+.gtavicon-aliens:before {
+  content: "\f104";
+}
+.gtavicon-arrows:before {
+  content: "\f105";
+}
+.gtavicon-audioicon:before {
+  content: "\f106";
+}
+.gtavicon-basejump:before {
+  content: "\f107";
+}
+.gtavicon-bike:before {
+  content: "\f108";
+}
+.gtavicon-bikerace:before {
+  content: "\f109";
+}
+.gtavicon-bikeracep2p:before {
+  content: "\f10a";
+}
+.gtavicon-block:before {
+  content: "\f10b";
+}
+.gtavicon-boat:before {
+  content: "\f10c";
+}
+.gtavicon-body_armor:before {
+  content: "\f10d";
+}
+.gtavicon-box:before {
+  content: "\f10e";
+}
+.gtavicon-brokenimg:before {
+  content: "\f10f";
+}
+.gtavicon-bullets_fired:before {
+  content: "\f110";
+}
+.gtavicon-busted:before {
+  content: "\f111";
+}
+.gtavicon-capture-base:before {
+  content: "\f112";
+}
+.gtavicon-capture:before {
+  content: "\f113";
+}
+.gtavicon-car-steal-4:before {
+  content: "\f114";
+}
+.gtavicon-cars_stolen:before {
+  content: "\f117";
+}
+.gtavicon-car_chosen:before {
+  content: "\f115";
+}
+.gtavicon-car_crashes:before {
+  content: "\f116";
+}
+.gtavicon-character_switches:before {
+  content: "\f118";
+}
+.gtavicon-circle:before {
+  content: "\f119";
+}
+.gtavicon-close-circle:before {
+  content: "\f11a";
+}
+.gtavicon-contactmission:before {
+  content: "\f11b";
+}
+.gtavicon-cops_killed:before {
+  content: "\f11c";
+}
+.gtavicon-cross:before {
+  content: "\f11d";
+}
+.gtavicon-deathmatch:before {
+  content: "\f11e";
+}
+.gtavicon-dock:before {
+  content: "\f11f";
+}
+.gtavicon-dogs_humping:before {
+  content: "\f120";
+}
+.gtavicon-driving:before {
+  content: "\f121";
+}
+.gtavicon-empty:before {
+  content: "\f122";
+}
+.gtavicon-exile1:before {
+  content: "\f123";
+}
+.gtavicon-fire_department:before {
+  content: "\f124";
+}
+.gtavicon-flying:before {
+  content: "\f125";
+}
+.gtavicon-franklin:before {
+  content: "\f126";
+}
+.gtavicon-freemission:before {
+  content: "\f127";
+}
+.gtavicon-gangattack:before {
+  content: "\f128";
+}
+.gtavicon-gasoline_used:before {
+  content: "\f129";
+}
+.gtavicon-golf:before {
+  content: "\f12a";
+}
+.gtavicon-grenade-launcher-kills:before {
+  content: "\f12b";
+}
+.gtavicon-grenadekills:before {
+  content: "\f12c";
+}
+.gtavicon-headshots:before {
+  content: "\f12d";
+}
+.gtavicon-health_damage_taken:before {
+  content: "\f12e";
+}
+.gtavicon-heist:before {
+  content: "\f12f";
+}
+.gtavicon-heists:before {
+  content: "\f130";
+}
+.gtavicon-helicopter:before {
+  content: "\f131";
+}
+.gtavicon-hook:before {
+  content: "\f132";
+}
+.gtavicon-hunting:before {
+  content: "\f133";
+}
+.gtavicon-icon_ammo:before {
+  content: "\f134";
+}
+.gtavicon-icon_arrows:before {
+  content: "\f135";
+}
+.gtavicon-icon_back:before {
+  content: "\f136";
+}
+.gtavicon-icon_banner:before {
+  content: "\f137";
+}
+.gtavicon-icon_calender:before {
+  content: "\f138";
+}
+.gtavicon-icon_camera:before {
+  content: "\f139";
+}
+.gtavicon-icon_chat:before {
+  content: "\f13a";
+}
+.gtavicon-icon_controller:before {
+  content: "\f13b";
+}
+.gtavicon-icon_crosshairs:before {
+  content: "\f13c";
+}
+.gtavicon-icon_dollar:before {
+  content: "\f13d";
+}
+.gtavicon-icon_driveby:before {
+  content: "\f13e";
+}
+.gtavicon-icon_globe:before {
+  content: "\f13f";
+}
+.gtavicon-icon_group:before {
+  content: "\f140";
+}
+.gtavicon-icon_gun:before {
+  content: "\f141";
+}
+.gtavicon-icon_hand:before {
+  content: "\f142";
+}
+.gtavicon-icon_heart:before {
+  content: "\f143";
+}
+.gtavicon-icon_inbox:before {
+  content: "\f144";
+}
+.gtavicon-icon_keyhole:before {
+  content: "\f145";
+}
+.gtavicon-icon_left_arrow:before {
+  content: "\f146";
+}
+.gtavicon-icon_lock:before {
+  content: "\f147";
+}
+.gtavicon-icon_magnifying_glass:before {
+  content: "\f148";
+}
+.gtavicon-icon_marker:before {
+  content: "\f149";
+}
+.gtavicon-icon_minus:before {
+  content: "\f14a";
+}
+.gtavicon-icon_minus_circle:before {
+  content: "\f14b";
+}
+.gtavicon-icon_pause:before {
+  content: "\f14c";
+}
+.gtavicon-icon_plus:before {
+  content: "\f14d";
+}
+.gtavicon-icon_plus_circle:before {
+  content: "\f14e";
+}
+.gtavicon-icon_plus_tick:before {
+  content: "\f14f";
+}
+.gtavicon-icon_question_circle:before {
+  content: "\f150";
+}
+.gtavicon-icon_race_boats:before {
+  content: "\f151";
+}
+.gtavicon-icon_race_car:before {
+  content: "\f152";
+}
+.gtavicon-icon_race_plane:before {
+  content: "\f153";
+}
+.gtavicon-icon_right_arrow:before {
+  content: "\f154";
+}
+.gtavicon-icon_share:before {
+  content: "\f155";
+}
+.gtavicon-icon_single-user:before {
+  content: "\f156";
+}
+.gtavicon-icon_skull:before {
+  content: "\f157";
+}
+.gtavicon-icon_skull_crossbones:before {
+  content: "\f158";
+}
+.gtavicon-icon_skull_target:before {
+  content: "\f159";
+}
+.gtavicon-icon_star:before {
+  content: "\f15a";
+}
+.gtavicon-icon_tag:before {
+  content: "\f15b";
+}
+.gtavicon-icon_target:before {
+  content: "\f15c";
+}
+.gtavicon-icon_thumbs_down:before {
+  content: "\f15d";
+}
+.gtavicon-icon_thumbs_up:before {
+  content: "\f15e";
+}
+.gtavicon-icon_timer:before {
+  content: "\f15f";
+}
+.gtavicon-icon_tri_stripes:before {
+  content: "\f160";
+}
+.gtavicon-icon_trophy:before {
+  content: "\f161";
+}
+.gtavicon-ifruit:before {
+  content: "\f162";
+}
+.gtavicon-info:before {
+  content: "\f163";
+}
+.gtavicon-innocents_killed:before {
+  content: "\f164";
+}
+.gtavicon-kills_cop:before {
+  content: "\f165";
+}
+.gtavicon-kills_innocents:before {
+  content: "\f166";
+}
+.gtavicon-kills_players:before {
+  content: "\f167";
+}
+.gtavicon-landrace:before {
+  content: "\f168";
+}
+.gtavicon-landracep2p:before {
+  content: "\f169";
+}
+.gtavicon-lastteamstanding:before {
+  content: "\f16a";
+}
+.gtavicon-letter_scrap:before {
+  content: "\f16b";
+}
+.gtavicon-letter_scraps:before {
+  content: "\f16c";
+}
+.gtavicon-lung:before {
+  content: "\f16d";
+}
+.gtavicon-maxspeed:before {
+  content: "\f16e";
+}
+.gtavicon-mechanic:before {
+  content: "\f16f";
+}
+.gtavicon-melee:before {
+  content: "\f170";
+}
+.gtavicon-michael-2:before {
+  content: "\f171";
+}
+.gtavicon-michael-4:before {
+  content: "\f172";
+}
+.gtavicon-michael:before {
+  content: "\f173";
+}
+.gtavicon-mission:before {
+  content: "\f174";
+}
+.gtavicon-mouseclicks:before {
+  content: "\f175";
+}
+.gtavicon-naked:before {
+  content: "\f176";
+}
+.gtavicon-number_crashes_cars:before {
+  content: "\f177";
+}
+.gtavicon-number_stolen_cars:before {
+  content: "\f178";
+}
+.gtavicon-parachuting:before {
+  content: "\f179";
+}
+.gtavicon-parachutingp2p:before {
+  content: "\f17a";
+}
+.gtavicon-photos:before {
+  content: "\f17b";
+}
+.gtavicon-popupsclosed:before {
+  content: "\f17c";
+}
+.gtavicon-race:before {
+  content: "\f17d";
+}
+.gtavicon-race_generic:before {
+  content: "\f17e";
+}
+.gtavicon-randommission:before {
+  content: "\f17f";
+}
+.gtavicon-random_event:before {
+  content: "\f180";
+}
+.gtavicon-random_person:before {
+  content: "\f181";
+}
+.gtavicon-refresh:before {
+  content: "\f182";
+}
+.gtavicon-report:before {
+  content: "\f183";
+}
+.gtavicon-rockstar_logo:before {
+  content: "\f184";
+}
+.gtavicon-rockstar_logo_background:before {
+  content: "\f185";
+}
+.gtavicon-rstar:before {
+  content: "\f186";
+}
+.gtavicon-rstarcan:before {
+  content: "\f187";
+}
+.gtavicon-rstar_background:before {
+  content: "\f188";
+}
+.gtavicon-safehouse:before {
+  content: "\f189";
+}
+.gtavicon-settings:before {
+  content: "\f18a";
+}
+.gtavicon-shooting:before {
+  content: "\f18b";
+}
+.gtavicon-shortcut:before {
+  content: "\f18c";
+}
+.gtavicon-special_cam:before {
+  content: "\f18d";
+}
+.gtavicon-stamina:before {
+  content: "\f18e";
+}
+.gtavicon-stayed_on_road:before {
+  content: "\f18f";
+}
+.gtavicon-stealth-kills:before {
+  content: "\f190";
+}
+.gtavicon-stealth:before {
+  content: "\f191";
+}
+.gtavicon-stelth:before {
+  content: "\f192";
+}
+.gtavicon-stickybombs:before {
+  content: "\f193";
+}
+.gtavicon-strength:before {
+  content: "\f194";
+}
+.gtavicon-submarine:before {
+  content: "\f195";
+}
+.gtavicon-survival:before {
+  content: "\f196";
+}
+.gtavicon-teamdeathmatch:before {
+  content: "\f197";
+}
+.gtavicon-tennis:before {
+  content: "\f198";
+}
+.gtavicon-tick:before {
+  content: "\f199";
+}
+.gtavicon-tick_box:before {
+  content: "\f19a";
+}
+.gtavicon-times_busted:before {
+  content: "\f19b";
+}
+.gtavicon-times_wanted:before {
+  content: "\f19c";
+}
+.gtavicon-timetaken:before {
+  content: "\f19d";
+}
+.gtavicon-trevor:before {
+  content: "\f19e";
+}
+.gtavicon-truck:before {
+  content: "\f19f";
+}
+.gtavicon-ufo_parts:before {
+  content: "\f1a0";
+}
+.gtavicon-vehicledeathmatch:before {
+  content: "\f1a1";
+}
+.gtavicon-verif:before {
+  content: "\f1a2";
+}
+.gtavicon-verifcan:before {
+  content: "\f1a3";
+}
+.gtavicon-versusmission:before {
+  content: "\f1a4";
+}
+.gtavicon-waterrace:before {
+  content: "\f1a5";
+}
+.gtavicon-waterracep2p:before {
+  content: "\f1a6";
+}
+.gtavicon-winner:before {
+  content: "\f1a7";
+}
+.gtavicon-stuntrace:before,
+.gtavicon-stuntracep2p:before {
+  content: "\e600";
+}
